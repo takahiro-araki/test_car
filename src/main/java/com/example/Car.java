@@ -3,7 +3,7 @@ package com.example;
 public class Car {
 	
 	private Integer speed;
-	private String bodyColor;
+	private String bodyColor = "blue";
 	public Integer getSpeed() {
 		return speed;
 	}
